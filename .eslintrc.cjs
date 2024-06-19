@@ -42,9 +42,10 @@ module.exports = {
     'react/button-has-type': 'off',
     'no-unused-vars': 'off',
     '@typescript-eslint/no-unused-vars': 'off',
+    'no-console': 'off',
+    'react-hooks/exhaustive-deps': 'off',
     // downgrades from error to warn
     'prefer-const': 'warn',
-    'no-console': 'warn',
     'spaced-comment': 'warn',
     'no-multi-spaces': 'warn',
     'import/newline-after-import': 'warn',

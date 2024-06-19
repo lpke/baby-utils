@@ -1,3 +1,5 @@
+'use client';
+
 import ContractionButton from '@/routes/contraction-timer/components/ContractionButton';
 
 export default function ContractionTimer() {
