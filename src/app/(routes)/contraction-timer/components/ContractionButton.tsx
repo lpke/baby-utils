@@ -16,7 +16,7 @@ export default function ContractionButton({
 
   return (
     <Button
-      className={`!rounded-full !px-8 !py-6 ${
+      className={`!rounded-full border-[6px] border-teal-200 !px-8 !py-6 dark:border-teal-500 ${
         active ? activeClasses : ''
       } ${className}`}
       {...buttonProps}
