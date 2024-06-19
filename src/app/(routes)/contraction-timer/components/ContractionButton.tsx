@@ -12,11 +12,11 @@ export default function ContractionButton({
   ...buttonProps
 }: ContractionButtonProps) {
   const activeClasses =
-    '!bg-rose-400 !hover:bg-rose-300 !dark:bg-rose-800 !dark:hover:bg-rose-700';
+    'bg-rose-400 hover:bg-rose-300 dark:bg-rose-800 dark:hover:bg-rose-700';
 
   return (
     <Button
-      className={`rounded-full px-8 py-6 ${
+      className={`!rounded-full !px-8 !py-6 ${
         active ? activeClasses : ''
       } ${className}`}
       {...buttonProps}
